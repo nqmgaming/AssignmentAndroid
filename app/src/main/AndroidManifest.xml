@@ -11,7 +11,7 @@
 
     <application
 
-        android:name=".Permission.CreateNotification"
+        android:name=".permission.CreateNotification"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -22,31 +22,31 @@
         android:theme="@style/Theme.Assignment_minhnqph31902"
         tools:targetApi="31">
         <activity
-            android:name=".UI.Account.AccountSettingActivity"
+            android:name=".ui.authentication.AccountSettingActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Application.SettingActivity"
+            android:name=".ui.main.SettingActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Intro.WelcomeActivity"
+            android:name=".ui.onboarding.WelcomeActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Account.SetNewPasswordActivity"
+            android:name=".ui.authentication.SetNewPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Account.ForgotPasswordActivity"
+            android:name=".ui.authentication.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Account.RegisterActivity"
+            android:name=".ui.authentication.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Account.LoginActivity"
+            android:name=".ui.authentication.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Intro.GetStartActivity"
+            android:name=".ui.onboarding.GetStartActivity"
             android:exported="false" />
         <activity
-            android:name=".UI.Intro.IntroTodoActivity"
+            android:name=".ui.onboarding.IntroTodoActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,11 +55,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UI.MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
 
-        <receiver android:name=".Permission.CloseNotificationReceiver" />
+        <receiver android:name=".permission.CloseNotificationReceiver" />
 
     </application>
 

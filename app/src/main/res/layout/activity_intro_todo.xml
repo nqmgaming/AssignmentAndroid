@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layoutDescription="@xml/activity_intro_todo_scene"
-    tools:context=".UI.Intro.IntroTodoActivity">
+    tools:context=".ui.onboarding.IntroTodoActivity">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView"

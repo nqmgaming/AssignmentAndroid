@@ -10,7 +10,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".UI.Intro.GetStartActivity">
+        tools:context=".ui.onboarding.GetStartActivity">
 
         <TextView
             android:id="@+id/textView"

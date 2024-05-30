@@ -8,7 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".UI.Account.RegisterActivity">
+        tools:context=".ui.authentication.RegisterActivity">
 
         <ImageButton
             android:id="@+id/btnBackRegister"
